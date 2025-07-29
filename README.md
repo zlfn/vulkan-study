@@ -8,7 +8,7 @@ This repository contains code examples and exercises from the [Vulkanalia tutori
 
 ## Tutorial
 
-Following: https://kylemayes.github.io/vulkanalia/
+Following: https://kylemayes.github.io/vulkanalia/  
 Also referenced: https://vulkan-tutorial.com/
 
 ## Dependencies
