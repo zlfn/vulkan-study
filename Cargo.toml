@@ -1,0 +1,22 @@
+[package]
+name = "vulkan_study"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4"
+
+# Error handling
+anyhow = "1"
+thiserror = "1"
+
+# Replacement of GLM
+cgmath = "0.18"
+pretty_env_logger = "0.5"
+
+# Load .png / .obj
+png = "0.17"
+tobj = { version = "3", features = ["log"] }
+
+vulkanalia = { version = "=0.29.0", features = ["libloading", "provisional", "window"] }
+winit = "0.29"
